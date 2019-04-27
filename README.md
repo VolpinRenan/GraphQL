@@ -54,3 +54,7 @@ from graphqlclient import GraphQLClient
 client = GraphQLClient('http://192.168.0.26:8000/graphql')
 result = client.execute('''mutation{createPost(username:"johndoe",title:"Vai Corinthians", body:"Body desc"){post{title body author{username}}}}''')
 ```
+
+# ![alt text](https://raw.githubusercontent.com/VolpinRenan/GraphQL/master/graphql1.png)
+
+# ![alt text](https://raw.githubusercontent.com/VolpinRenan/GraphQL/master/graphql2.png)
